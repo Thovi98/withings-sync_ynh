@@ -51,9 +51,6 @@ ram.runtime = "50M"
     optional = true
 
 [resources]
-
-    [resources.sources]
-   
     [resources.system_user]
 
     [resources.install_dir]

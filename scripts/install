@@ -35,15 +35,6 @@ pushd "$install_dir"
 popd
 
 #=================================================
-# INITIALIZE APP
-#=================================================
- ynh_script_progression "Initialize $app..."
-
-set -a
-ynh_hide_warnings $install_dir/venv/bin/withings-sync
-set +a
-
-#=================================================
 # ADD A CRON JOB
 #=================================================
 ynh_config_add --template="withings-sync.cron" --destination="/etc/cron.d/$app"

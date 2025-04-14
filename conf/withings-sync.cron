@@ -1,0 +1,3 @@
+# Run __APP__ sync every hour
+
+0 * * * * __APP__ __INSTALL_DIR__/venv/bin/withings-sync

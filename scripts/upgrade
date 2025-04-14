@@ -8,15 +8,6 @@ source _common.sh
 source /usr/share/yunohost/helpers
 
 #=================================================
-# DOWNLOAD, CHECK AND UNPACK SOURCE
-#=================================================
-ynh_script_progression "Upgrading source files..."
-
-ynh_setup_source --dest_dir="$install_dir" --full_replace --keep=".withings_user.json garmin_session"
-
-chown -R "$app":"$app" "$install_dir"
-
-#=================================================
 # UPDATE A CONFIG FILE
 #=================================================
 ynh_script_progression "Updating $app's configuration files..."

@@ -41,12 +41,12 @@ ram.runtime = "50M"
     optional = true
 
     [install.trainerroad_username]
-    ask.en = "What’s your Garmin Connect username?"
+    ask.en = "What’s your Trainer Road username?"
     type = "string"
     optional = true
 
     [install.trainerroad_password]
-    ask.en = "What’s the Garmin Connect password?"
+    ask.en = "What’s the Trainer Road password?"
     type = "password"
     optional = true
 

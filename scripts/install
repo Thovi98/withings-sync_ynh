@@ -8,7 +8,8 @@ source _common.sh
 source /usr/share/yunohost/helpers
 
 # Not saved by default
-ynh_app_setting_set --key=password --value="$password"
+ynh_app_setting_set --key=garmin_password --value="$garmin_password"
+ynh_app_setting_set --key=trainerroad_password --value="$trainerroad_password"
 
 #=================================================
 # APP INITIAL CONFIGURATION

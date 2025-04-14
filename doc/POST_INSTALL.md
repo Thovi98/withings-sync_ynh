@@ -1,4 +1,6 @@
-After installation, you have to initalise withings-sync by doing:
+Congrats for the installation!
+
+Now, you have to initalise withings-sync by doing:
 
 ```
  __INSTALL_DIR__/venv/bin/withings-sync
